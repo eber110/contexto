@@ -112,3 +112,4 @@
 	echo 'El porcentaje de coincidencias de tristeza es = '.$porTristeza.'%<br>';
 
 ?>
+<!-- Solo es una idea el codigo no esta terminado -->
