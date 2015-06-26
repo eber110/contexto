@@ -10,8 +10,8 @@
 	//este programa registra las veces que se repite las palabras en la base de dato segun el texto ingresado por el
 	//usuario
 	function contar($elementoAcontar,$baseDato){
-		$minuscula = strtolower($elementoAcontar);
-		$textoLimpio = preg_replace('([^A-Z a-z])', '', $minuscula);
+		$minuscula = strtolower($elementoAcontar);//todas las palabras se formatean aminusculas
+		$textoLimpio = preg_replace('([^A-Z a-z])', '', $minuscula);//se formatea el texto a solo palabras
 		$var1 = explode(" ",$textoLimpio);
 		$var2 = explode(" ",$baseDato);
 		
